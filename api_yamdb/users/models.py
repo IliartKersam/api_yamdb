@@ -18,6 +18,8 @@ class UserManager(UserManager):
 
     def create_superuser(self, **extra_fields):
         extra_fields['role'] = ADMIN
+        extra_fields['is_superuser'] = 1
+        extra_fields['is_staff'] = 1
         return super()._create_user(**extra_fields)
 
 
