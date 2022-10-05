@@ -17,7 +17,7 @@ The YaMDb project collects reviews (Review) of users on works (Titles). The work
 
 Clone repository and go to it's derictory on your computer:
 ```
-git clone https://github.com/loverazz/api_yamdb.git
+git clone https://github.com/IliartKersam/api_yamdb.git
 ```
 ```
 cd api_yamdb
@@ -26,10 +26,10 @@ cd api_yamdb
 Create and activate virtual environment:
 
 ```
-python -m venv env
+python -m venv venv
 ```
 ```
-source env/bin/activate
+source venv/bin/activate
 ```
 ```
 python -m pip install --upgrade pip
